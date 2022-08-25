@@ -1,0 +1,152 @@
+
+/* Global Class */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+section {
+    padding: 100px 0px;
+} 
+.container {
+    width: 90%;
+    margin: auto;
+}
+/* Header part */
+header {
+    background-color: #87509c;
+    color: #fff;
+    width:100% ;
+    float:left ;
+    padding: 20px 0px;
+}
+Nav {
+    width: 100%;
+    float: left;
+}
+.logo-part {
+    width: 50% ;
+    float: left;
+
+}
+.menu-part {
+    width: 50% ;
+    float: left;
+    padding-top:  10px;
+    text-align: right;
+    
+
+}
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+}
+.menu-part a {
+ text-decoration: none;
+ font-size: 20px;
+ color: #fff;
+ font-weight: 500;
+ margin: 10px;
+ padding: 10px;
+}
+.menu-part a:hover {
+background-color: #11101150;
+}
+/* service section */
+#service {
+width: 100%;
+float: left;
+background-color:#17c2a4 ;
+color: #fff;
+text-align: center;
+}
+.service-writing-part {
+width: 100%;
+float: left;
+padding: 20px;
+}
+.service-box-part {
+width: 100%;
+float: left;
+padding-top: 40px;
+}
+.underline {
+    width: 5%;
+    border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+    margin: 20px auto;
+}
+.service-writing-part h1 {
+font-size: 35px;
+font-family: "Titillium Web", sans-serif;
+
+} 
+.service-box{
+ width: 25%;
+ float: left; 
+ padding-top: 25px; 
+}
+/* Team section */
+#Team {
+    width: 100%;
+    float: left;
+    background-color: rgba(235, 209, 209, 0.185);
+    color: #000;
+    text-align: center;
+   
+}
+.Team-writing-part {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.Team-box-part {
+    width: 100%;
+    float: left;
+
+}
+.underline {
+    width: 5%;
+    border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+    margin: 20px auto;
+}
+.Team-writing-part h1 {
+    font-size: 35px;
+    font-family: "Titillium Web", sans-serif;
+}
+.Team-box-part h4{
+    color: skyblue;
+}
+.Team-box {
+    width: 25%;
+    float: left;
+    padding-top: 25px;
+}
+/*Skill section*/
+#Skill {
+    width: 100%;
+    float: left;
+    background-color:#fff;
+    color: #000;
+    text-align: center;
+}
+.underline {
+    width: 5%;
+    border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+    margin: 20px auto;
+}
+.Skill-writing-part h1 {
+    font-size: 35px;
+    font-family: "Titillium Web", sans-serif;
+}
+.Skill-box-part h4 {
+    color: skyblue;
+}
+.Skill-box {
+        width: 25%;
+        float: left;
+        padding-top: 25px;
+}
+    
